@@ -1,0 +1,194 @@
+# Dictionary of SAP Web Intelligence formulas
+
+* Italiano - Inglese - Tedesco
+* Italian - English - German
+* Italienisch - Englisch - Deutsch
+
+## Dictionary multilanguage
+
+Please use `CTRL + F` to find the word from the following list.
+
+
+
+
+
+|    ID     |                               Italiano                               |              English              |                     Deutsche                     |
+|-----------|----------------------------------------------------------------------|-----------------------------------|--------------------------------------------------|
+|   4.4.1.1 | In                                                                   | In                                | In                                               |
+|   4.4.1.2 | PerOgni                                                              | ForEach                           | FürJeden                                         |
+|   4.4.1.3 | PerTutto                                                             | ForAll                            | FürAlle                                          |
+| 6.1.10.11 | Se...Quindi...Altrimenti                                             | If...Then...Else                  | Wenn...Dann...Sonst                              |
+| 6.1.10.12 | Se                                                                   | If                                | Wenn                                             |
+| 6.1.10.13 | NumeroRiga                                                           | LineNumber                        | ZeileNummer                                      |
+| 6.1.10.14 | NomeDi                                                               | NameOf                            | NameVon                                          |
+| 6.1.10.15 | NessunFiltro                                                         | NoFilter                          | KeinFilter                                       |
+| 6.1.10.17 | Pagina                                                               | Page                              | Seite                                            |
+| 6.1.10.18 | Precedente                                                           | Previous                          | Vorherige                                        |
+| 6.1.10.19 | ValoreRif                                                            | RefValue                          | RefWert                                          |
+|  6.1.10.2 | NumeroColonna                                                        | ColumnNumber                      | SpalteNummer                                     |
+| 6.1.10.20 | ValoreRelativo                                                       | RelativeValue                     | RelativerWert                                    |
+| 6.1.10.21 | NomeReport                                                           | ReportName                        | Berichtsname                                     |
+| 6.1.10.22 | IndiceRighe                                                          | RowIndex                          | ZeilenIndex                                      |
+|  6.1.10.3 | Commento                                                             | Comment                           | Kommentar                                        |
+|  6.1.10.5 | ForzaUnione                                                          | ForceMerge                        | ZusammenführungErzwingen                         |
+|  6.1.10.6 | OttieniImpostazioniInternazionaliContenuto                           | GetContentLocale                  | InhaltsgebietsschemaAbrufen                      |
+|  6.1.10.7 | OttieniImpostazioniInternazionaliDiVisualizzazionePreferiteDominanti | GetDominantPreferredViewingLocale | DominantesBevorzugtesAnzeigegebietsschemaAbrufen |
+|  6.1.10.8 | GetLocale                                                            | GetLocale                         | GebietsschemaAbrufen                             |
+|  6.1.10.9 | OttieneLocalizzato                                                   | GetLocalized                      | LokalisierteAbrufen                              |
+|   6.1.2.1 | Aggregato                                                            | Aggregate                         | Aggregation                                      |
+|  6.1.2.10 | Min                                                                  | Min                               | Min                                              |
+|  6.1.2.11 | Modo                                                                 | Mode                              | Modus                                            |
+|  6.1.2.12 | Percentuale                                                          | Percentage                        | Prozent                                          |
+|  6.1.2.13 | Percentile                                                           | Percentile                        | Perzentil                                        |
+|  6.1.2.14 | Prodotto                                                             | Product                           | Produkt                                          |
+|  6.1.2.15 | MediaCumulata                                                        | RunningAverage                    | LaufenderDurchschnitt                            |
+|  6.1.2.16 | ConteggioCumulato                                                    | RunningCount                      | LaufendeAnzahl                                   |
+|  6.1.2.17 | MaxCumulato                                                          | RunningMax                        | LaufendesMaximum                                 |
+|  6.1.2.18 | MinCumulato                                                          | RunningMin                        | LaufendesMinimum                                 |
+|  6.1.2.19 | ProdottoCumulato                                                     | RunningProduct                    | LaufendesProdukt                                 |
+|  6.1.2.20 | SommaCumulata                                                        | RunningSum                        | LaufendeSumme                                    |
+|  6.1.2.21 | DeviazioneStandard                                                   | StdDev                            | StdAbw                                           |
+|  6.1.2.22 | DeviazioneStandardPop                                                | StdDevP                           | StAbwP                                           |
+|  6.1.2.23 | Somma                                                                | Sum                               | Summe                                            |
+|  6.1.2.24 | Varianza                                                             | Var                               | Var                                              |
+|  6.1.2.25 | VarianzaPop                                                          | VarP                              | VarianzP                                         |
+|   6.1.2.3 | Media                                                                | Average                           | Durchschnitt                                     |
+|   6.1.2.4 | Conteggio                                                            | Count                             | Anzahl                                           |
+|   6.1.2.5 | Primo                                                                | First                             | Erste                                            |
+|   6.1.2.6 | Interpolazione                                                       | Interpolation                     | Interpolation                                    |
+|   6.1.2.7 | Ultimo                                                               | Last                              | Letzte                                           |
+|   6.1.2.8 | Max                                                                  | Max                               | Max                                              |
+|   6.1.2.9 | Mediana                                                              | Median                            | Median                                           |
+|   6.1.3.1 | Asc                                                                  | Asc                               | Asc                                              |
+|  6.1.3.10 | RiempiSpaziASinistra                                                 | LeftPad                           | AuffüllenLinks                                   |
+|  6.1.3.11 | EliminaSpaziASinistra                                                | LeftTrim                          | LöschLeerLinks                                   |
+|  6.1.3.12 | Lunghezza                                                            | Length                            | Länge                                            |
+|  6.1.3.13 | Minuscole                                                            | Lower                             | KleinAlleBuchst                                  |
+|  6.1.3.14 | Confronta                                                            | Match                             | Vergleich                                        |
+|  6.1.3.15 | Pos                                                                  | Pos                               | Pos                                              |
+|  6.1.3.16 | Sostituisci                                                          | Replace                           | Ersetzen                                         |
+|  6.1.3.17 | Destra                                                               | Right                             | Rechts                                           |
+|  6.1.3.18 | RiempiSpaziADestra                                                   | RightPad                          | AuffüllenRechts                                  |
+|  6.1.3.19 | EliminaSpaziADestra                                                  | RightTrim                         | LöschLeerRechts                                  |
+|   6.1.3.2 | Car                                                                  | Char                              | Zeich                                            |
+|  6.1.3.20 | Sottostringa                                                         | Substr                            | Teilzeichenfolge                                 |
+|  6.1.3.21 | EliminaSpazi                                                         | Trim                              | Löschen                                          |
+|  6.1.3.22 | Maiuscole                                                            | Upper                             | GroßAlleBuchst                                   |
+|  6.1.3.23 | CodificaURL                                                          | UrlEncode                         | URLKodierung                                     |
+|  6.1.3.24 | TuttoMaiuscole                                                       | WordCap                           | GroßAlleWörter                                   |
+|   6.1.3.3 | Concatenamento                                                       | Concatenation                     | Verkettung                                       |
+|   6.1.3.4 | Ricopia                                                              | Fill                              | Füllen                                           |
+|   6.1.3.5 | FormatoData                                                          | FormatDate                        | FormatDatum                                      |
+|   6.1.3.6 | FormatoNumero                                                        | FormatNumber                      | FormatZahl                                       |
+|   6.1.3.7 | CodificaHTML                                                         | HTMLEncode                        | HTMLEncode                                       |
+|   6.1.3.8 | Maiuscola                                                            | InitCap                           | GroßAnfang                                       |
+|   6.1.3.9 | Sinistra                                                             | Left                              | Links                                            |
+|   6.1.4.1 | DataCorrente                                                         | CurrentDate                       | AktuellesDatum                                   |
+|  6.1.4.10 | Mese                                                                 | Month                             | Monat                                            |
+|  6.1.4.11 | NumeroMeseAnno                                                       | MonthNumberOfYear                 | NummerMonatDesJahres                             |
+|  6.1.4.12 | MesiTra                                                              | MonthsBetween                     | MonateZwischen                                   |
+|  6.1.4.13 | Trimestre                                                            | Quarter                           | Quartal                                          |
+|  6.1.4.14 | DataRelativa                                                         | RelativeDate                      | DatumRelativ                                     |
+|  6.1.4.15 | DimensioneOra                                                        | TimeDim                           | ZeitDim                                          |
+|  6.1.4.16 | InData                                                               | ToDate                            | InDatum                                          |
+|  6.1.4.17 | Settimana                                                            | Week                              | Woche                                            |
+|  6.1.4.18 | Anno                                                                 | Year                              | Jahr                                             |
+|   6.1.4.2 | OraCorrente                                                          | CurrentTime                       | AktuelleUhrzeit                                  |
+|   6.1.4.3 | NomeGiorno                                                           | DayName                           | NameDesTages                                     |
+|   6.1.4.4 | NumeroGiornoDelMese                                                  | DayNumberOfMonth                  | NummerTagDesMonats                               |
+|   6.1.4.5 | NumeroGiornoDellaSettimana                                           | DayNumberOfWeek                   | NummerTagDerWoche                                |
+|   6.1.4.6 | NumeroGiornoAnno                                                     | DayNumberOfYear                   | NummerTagDesJahres                               |
+|   6.1.4.7 | GiorniTra                                                            | DaysBetween                       | TageZwischen                                     |
+|   6.1.4.8 | UltimoGiornoDelMese                                                  | LastDayOfMonth                    | LetzterTagDesMonats                              |
+|   6.1.4.9 | UltimoGiornoDellaSettimana                                           | LastDayOfWeek                     | LetzterTagDerWoche                               |
+|   6.1.5.1 | Connessione                                                          | Connection                        | Verbindung                                       |
+|  6.1.5.10 | OraUltimaEsecuzione                                                  | LastExecutionTime                 | UhrzeitLetzteAusführung                          |
+|  6.1.5.11 | NumeroFornitoreDati                                                  | NumberOfDataProviders             | AnzahlDatenprovider                              |
+|  6.1.5.12 | NumeroRighe                                                          | NumberOfRows                      | AnzahlZeilen                                     |
+|  6.1.5.14 | ValoreRifRispostaUtente                                              | RefValueUserReponse               | ReferenzwertAntwortBenutzer                      |
+|  6.1.5.15 | ValoreServer                                                         | ServerValue                       | Serverwert                                       |
+|  6.1.5.16 | NomeUniverso                                                         | UniverseName                      | Universumsname                                   |
+|  6.1.5.17 | RispostaUtente                                                       | UserResponse                      | AntwortBenutzer                                  |
+|   6.1.5.2 | FornitoreDiDati                                                      | DataProvider                      | Datenprovider                                    |
+|   6.1.5.3 | DataPrincipaleFornitoreDiDati                                        | DataProviderKeyDate               | DatenproviderSchlüsseldatum                      |
+|   6.1.5.4 | DidascaliaDataPrincipaleFornitoreDiDati                              | DataProviderKeyDateCaption        | DatenproviderSchlüsseldatumBeschriftung          |
+|   6.1.5.5 | FornitoreDiDatiSQL                                                   | DataProviderSQL                   | DatenproviderSQL                                 |
+|   6.1.5.6 | TipoFornitoreDiDati                                                  | DataProviderType                  | DatenproviderTyp                                 |
+|   6.1.5.7 | ÈPromptConRisposta                                                   | IsPromptAnswered                  | WurdeEingabeaufforderungBeantwortet              |
+|   6.1.5.8 | DataUltimaEsecuzione                                                 | LastExecutionDate                 | DatumLetzteAusführung                            |
+|   6.1.5.9 | DurataUltimaEsecuzione                                               | LastExecutionDuration             | DauerLetzteAusführung                            |
+|  6.1.6.10 | RiepilogoPrompt                                                      | PromptSummary                     | Eingabeaufforderungszusammenfassung              |
+|  6.1.6.11 | RiepilogoQuery                                                       | QuerySummary                      | Abfragezusammenfassung                           |
+|  6.1.6.12 | FiltroReport                                                         | ReportFilter                      | BerichtFilter                                    |
+|  6.1.6.13 | RiepilogoFiltroReport                                                | ReportFilterSummary               | Berichtfilterzusammenfassung                     |
+|   6.1.6.2 | DataCreazioneDocumento                                               | DocumentCreationDate              | DokumenterstellungDatum                          |
+|   6.1.6.4 | DataDocumento                                                        | DocumentDate                      | DokumentDatum                                    |
+|   6.1.6.5 | NomeDocumento                                                        | DocumentName                      | DokumentName                                     |
+|   6.1.6.7 | DocumentoParzialmenteAggiornato                                      | DocumentPartiallyRefreshed        | DokumentTeilRegeneriert                          |
+|   6.1.6.8 | OraDocumento                                                         | DocumentTime                      | DokumentUhrzeit                                  |
+|   6.1.6.9 | FiltriDrill                                                          | DrillFilters                      | DrillFilter                                      |
+|   6.1.7.1 | Pari                                                                 | Even                              | Gerade                                           |
+|   6.1.7.2 | ÈData                                                                | IsDate                            | IstDatum                                         |
+|   6.1.7.3 | ÈErrore                                                              | IsError                           | IstFehler                                        |
+|   6.1.7.4 | ÈLogico                                                              | IsLogical                         | IstBoolesch                                      |
+|   6.1.7.5 | ÈNull                                                                | IsNull                            | IstNull                                          |
+|   6.1.7.6 | ÈNumero                                                              | IsNumber                          | IstZahl                                          |
+|   6.1.7.7 | ÈStringa                                                             | IsString                          | IstZeichenfolge                                  |
+|   6.1.7.8 | ÈOra                                                                 | IsTime                            | IstUhrzeit                                       |
+|   6.1.7.9 | Dispari                                                              | Odd                               | Ungerade                                         |
+|   6.1.8.1 | Ass                                                                  | Abs                               | Abs                                              |
+|  6.1.8.10 | InteroInf                                                            | Floor                             | AnzahlDatenprovider                              |
+|  6.1.8.11 | Ln                                                                   | Ln                                | Ln                                               |
+|  6.1.8.12 | Log                                                                  | Log                               | Log                                              |
+|  6.1.8.14 | Resto                                                                | Mod                               | AnzahlDatenprovider                              |
+|  6.1.8.15 | Potenza                                                              | Power                             | Potenz                                           |
+|  6.1.8.16 | Classifica                                                           | Rank                              | Rang                                             |
+|  6.1.8.17 | Arrot                                                                | Round                             | Runden                                           |
+|  6.1.8.18 | Segno                                                                | Sign                              | Zeichen                                          |
+|  6.1.8.19 | Sen                                                                  | Sin                               | Sin                                              |
+|   6.1.8.2 | InteroSup                                                            | Ceil                              | Obergrenze                                       |
+|  6.1.8.20 | RadQ                                                                 | Sqrt                              | Quadratwurzel                                    |
+|  6.1.8.22 | ToDecimal                                                            | ToDecimal                         | ToDecimal                                        |
+|  6.1.8.23 | InNumero                                                             | ToNumber                          | InZahl                                           |
+|  6.1.8.24 | Tronca                                                               | Truncate                          | Abschneiden                                      |
+|   6.1.8.3 | Cos                                                                  | Cos                               | Cos                                              |
+|   6.1.8.4 | EuroConvertiDa                                                       | EuroConvertFrom                   | AusEuroKonvertieren                              |
+|   6.1.8.5 | EuroConvertiIn                                                       | EuroConvertTo                     | InEuroKonvertieren                               |
+|   6.1.8.6 | ErroreArrotondamentoDaEuro                                           | EuroFromRoundError                | AusEuroRundungsfehler                            |
+|   6.1.8.7 | ErroreAArrotEuro                                                     | EuroToRoundError                  | InEuroRundungsfehler                             |
+|   6.1.8.9 | Fatt                                                                 | Fact                              | Fakultät                                         |
+|   6.1.9.1 | Antenato                                                             | Ancestor                          | Vorgänger                                        |
+|   6.1.9.2 | ElementiSecondari                                                    | Children                          | Untergeordnete Elemente                          |
+|   6.1.9.3 | Profondità                                                           | Depth                             | Tiefe                                            |
+|   6.1.9.4 | Discendenti                                                          | Descendants                       | Nachfolger                                       |
+|   6.1.9.5 | ÈFoglia                                                              | IsLeaf                            | IstBlattelement                                  |
+|   6.1.9.6 | Chiave                                                               | Key                               | Schlüssel                                        |
+|   6.1.9.7 | Lag                                                                  | Lag                               | Abstand                                          |
+|   6.1.9.8 | ElementoPrincipale                                                   | Parent                            | übergeordnetes                                   |
+|   6.1.9.9 | ElementiDiPariLivello                                                | Siblings                          | Gleichgeordnete                                  |
+|   6.2.3.1 | E                                                                    | And                               | Und                                              |
+|   6.2.3.2 | Or                                                                   | Or                                | Oder                                             |
+|   6.2.3.3 | Non                                                                  | NotOnBreak                        | Nicht                                            |
+|   6.2.3.4 | Tra                                                                  | Between                           | Zwischen                                         |
+|   6.2.3.5 | InElenco                                                             | InList                            | InListe                                          |
+|   6.2.4.1 | Tutto                                                                | All                               | Alle                                             |
+|  6.2.4.10 | NonSuInterruzione                                                    | NotOnBreak                        | NichtInGruppenwechsel                            |
+|  6.2.4.12 | Riga/Col                                                             | Row/Col                           | Zeile/Spalte                                     |
+|  6.2.4.14 | Dove                                                                 | Where                             | Wo                                               |
+|   6.2.4.3 | Ultimi/Primi                                                         | Bottom/Top                        | Letzter/Erster                                   |
+|   6.2.4.4 | Interruzione                                                         | Break                             | Gruppenwechsel                                   |
+|   6.2.4.6 | IncludiVuoto                                                         | IncludeEmpty                      | EinschließlichLeer                               |
+|   6.2.4.8 | Lineare                                                              | Linear                            | Linear                                           |
+|   6.2.5.3 | PerTutto                                                             | ForAll                            | FürAlle                                          |
+|   6.2.6.1 | Intervallo                                                           | Range                             | Bereichsoperator                                 |
+|     6.3.1 | Blocco                                                               | Block                             | Block                                            |
+|     6.3.2 | Corpo                                                                | Body                              | Körper                                           |
+|     6.3.3 |                                                                      | Break                             |                                                  |
+|     6.3.4 | Report                                                               | Report                            | Bericht                                          |
+|     6.3.5 | Sezione                                                              | Section                           | Sektion                                          |
+|    7.2.13 | #RANK                                                                | #RANK                             | #RANG                                            |
+|    7.2.16 | #SECURITY                                                            | #SECURITY                         | #SICHERHEIT                                      |
+|    7.2.19 | #NON DISPONIBILE                                                     | #UNAVAILABLE                      | #NICHTVERFüGBAR                                  |
+|     7.2.2 | #CONTESTO                                                            | #CONTEXT                          | #KONTEXT                                         |
+|     7.2.4 | #DIV/0                                                               | #DIV/0                            | #DIV/0                                           |
+|     7.2.9 | #VALOREMULTI                                                         | #MULTIVALUE                       | #MEHRFACHWERT                                    |
